@@ -13,6 +13,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/attachement_content")
 @RequiredArgsConstructor
+
 public class Attachement_ContentCOntroller {
     private final Attachement_ContentService service;
 
