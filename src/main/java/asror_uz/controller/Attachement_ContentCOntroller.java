@@ -28,6 +28,7 @@ public class Attachement_ContentCOntroller {
         return ResponseEntity.ok(service.getById(id));
     }
 
+
     @GetMapping
     public ResponseEntity<List<Attachement_Content>> getAll() {
         return ResponseEntity.ok(service.getAll());
