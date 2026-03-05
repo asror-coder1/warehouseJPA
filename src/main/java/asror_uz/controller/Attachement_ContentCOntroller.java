@@ -33,6 +33,7 @@ public class Attachement_ContentCOntroller {
         return ResponseEntity.ok(service.getAll());
     }
 
+
     @PutMapping("/{id}")
     public ResponseEntity<Result> edit(@PathVariable Long id, @RequestBody Attachement_ContentDto dto){
         return ResponseEntity.ok(service.update(id, dto));
